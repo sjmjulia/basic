@@ -1,0 +1,717 @@
+TBasic
+v7
+r0
+t352835165.077347
+cCheck dependencies
+cProcessInfoPlistFile ./Basic.app/Contents/Info.plist Info.plist
+cCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/Basic.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/statement.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/statement.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/parser.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/program.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/evalstate.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/evalstate.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/exp.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/exp.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./Basic.app/Contents/MacOS/Basic normal i386
+cTouch ./Basic.app
+
+N./Basic.app
+t1331142365
+s102
+
+N./Basic.app/Contents/Info.plist
+t1330757065
+s1090
+
+N./Basic.app/Contents/MacOS/Basic
+t1331142364
+s422748
+
+N./Basic.app/Contents/PkgInfo
+t1330757065
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004F0F8C540000000000785970
+t1326419028
+s7887216
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/Basic.cpp
+c000000004F579BFC0000000000000A9D
+t1331141628
+s2717
+i<cctype>
+i<iostream>
+i<string>
+i"console.h"
+i"exp.h"
+i"parser.h"
+i"program.h"
+i"tokenscanner.h"
+i"simpio.h"
+i"strlib.h"
+i"error.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/evalstate.cpp
+c000000004F53A53C0000000000000351
+t1330881852
+s849
+i<string>
+i"evalstate.h"
+i"map.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/evalstate.h
+c000000004F54175C0000000000000768
+t1330911068
+s1896
+i<string>
+i"map.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/exp.cpp
+c000000004F45203A0000000000000DAB
+t1329930298
+s3499
+i<string>
+i"error.h"
+i"evalstate.h"
+i"exp.h"
+i"strlib.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/exp.h
+c000000004F45203A0000000000001889
+t1329930298
+s6281
+i"evalstate.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp
+c000000004F579BDD0000000000000BA3
+t1331141597
+s2979
+i<iostream>
+i<string>
+i"error.h"
+i"exp.h"
+i"parser.h"
+i"strlib.h"
+i"tokenscanner.h"
+i"statement.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.h
+c000000004F53A3F00000000000000629
+t1330881520
+s1577
+i<string>
+i"exp.h"
+i"tokenscanner.h"
+i"statement.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp
+c000000004F54007C0000000000000B93
+t1330905212
+s2963
+i<string>
+i"program.h"
+i"statement.h"
+i"hashmap.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.h
+c000000004F526DCE0000000000000F83
+t1330802126
+s3971
+i<string>
+i"hashmap.h"
+i"statement.h"
+i"programpriv.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/programpriv.h
+c000000004F54175D000000000000013D
+t1330911069
+s317
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/statement.cpp
+c000000004F54175D0000000000000A99
+t1330911069
+s2713
+i<string>
+i"statement.h"
+i"exp.h"
+i"parser.h"
+i"simpio.h"
+i"strlib.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/statement.h
+c000000004F54175D0000000000000D82
+t1330911069
+s3458
+i"evalstate.h"
+i"exp.h"
+i"tokenscanner.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp
+c000000004F5796F90000000000000B39
+t1331140345
+s2873
+i<cctype>
+i<iostream>
+i<string>
+i"console.h"
+i"exp.h"
+i"parser.h"
+i"program.h"
+i"tokenscanner.h"
+i"simpio.h"
+i"strlib.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/cmpfn.h
+c000000004F1353A600000000000003A0
+t1326666662
+s928
+i"private/cmpfnimpl.cpp"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/console.h
+c000000004F1353A60000000000000615
+t1326666662
+s1557
+i<string>
+i"private/main.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/error.h
+c000000004F1353A60000000000000528
+t1326666662
+s1320
+i<string>
+i<exception>
+i"private/main.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/foreach.h
+c000000004F1353A600000000000005D0
+t1326666662
+s1488
+i"private/foreachpriv.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/hashmap.h
+c000000004F1353A600000000000012D7
+t1326666662
+s4823
+i<cstdlib>
+i<string>
+i"error.h"
+i"foreach.h"
+i"vector.h"
+i"private/hashmappriv.h"
+i"private/hashmapimpl.cpp"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/lexicon.h
+c000000004F1353A60000000000001059
+t1326666662
+s4185
+i<string>
+i"foreach.h"
+i"set.h"
+i"stack.h"
+i<cctype>
+i"private/lexiconpriv.h"
+i"private/lexiconimpl.cpp"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/libStanfordCPPLib.a
+c000000004F28068C0000000000235598
+t1328023180
+s2315672
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/map.h
+c000000004F1353A60000000000001100
+t1326666662
+s4352
+i<cstdlib>
+i"cmpfn.h"
+i"error.h"
+i"foreach.h"
+i"stack.h"
+i"private/mappriv.h"
+i"private/mapimpl.cpp"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/cmpfnimpl.cpp
+c000000004E5D86740000000000000190
+t1314752116
+s400
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/foreachpriv.h
+c000000004E9E2F3A0000000000001171
+t1318989626
+s4465
+i<iterator>
+i<map>
+i<cstddef>
+i<cstring>
+i<ios>
+i<fstream>
+i<sstream>
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/hashmapimpl.cpp
+c000000004F3E03060000000000000E2F
+t1329464070
+s3631
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/hashmappriv.h
+c000000004F3E030C0000000000001866
+t1329464076
+s6246
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/lexiconimpl.cpp
+c000000004E5D867400000000000001F4
+t1314752116
+s500
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/lexiconpriv.h
+c000000004F0486A20000000000001173
+t1325696674
+s4467
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/main.h
+c000000004ED1075C00000000000005E0
+t1322321756
+s1504
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/mapimpl.cpp
+c000000004E5D86740000000000002D64
+t1314752116
+s11620
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/mappriv.h
+c000000004F0484CA000000000000156B
+t1325696202
+s5483
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/setimpl.cpp
+c000000004F413ECE00000000000019F8
+t1329675982
+s6648
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/setpriv.h
+c000000004E5D86740000000000000943
+t1314752116
+s2371
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/stackimpl.cpp
+c000000004E5D86740000000000000696
+t1314752116
+s1686
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/stackpriv.h
+c000000004E5D86740000000000000284
+t1314752116
+s644
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/tokenscannerpriv.h
+c000000004F41398200000000000005D2
+t1329674626
+s1490
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/vectorimpl.cpp
+c000000004F0482640000000000001416
+t1325695588
+s5142
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/private/vectorpriv.h
+c000000004F0485C40000000000001280
+t1325696452
+s4736
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/set.h
+c000000004F413ECE0000000000001EAC
+t1329675982
+s7852
+i<iostream>
+i"cmpfn.h"
+i"error.h"
+i"foreach.h"
+i"map.h"
+i"vector.h"
+i"private/setpriv.h"
+i"private/setimpl.cpp"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/simpio.h
+c000000004F1353A600000000000006F9
+t1326666662
+s1785
+i<string>
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/stack.h
+c000000004F1353A6000000000000098E
+t1326666662
+s2446
+i"error.h"
+i"vector.h"
+i"private/stackpriv.h"
+i"private/stackimpl.cpp"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/strlib.h
+c000000004F1353A60000000000000D9D
+t1326666662
+s3485
+i<string>
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/tokenscanner.h
+c000000004F1353A60000000000001D15
+t1326666662
+s7445
+i<iostream>
+i<string>
+i"lexicon.h"
+i"stack.h"
+i"private/tokenscannerpriv.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/vector.h
+c000000004F1353A600000000000014AD
+t1326666662
+s5293
+i<iterator>
+i"error.h"
+i"foreach.h"
+i"private/vectorpriv.h"
+i"private/vectorimpl.cpp"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.LinkFileList
+c000000004F57994E00000000000002E5
+t1331140942
+s741
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.o
+t1331142354
+s106576
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/evalstate.o
+t1331140953
+s62156
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/exp.o
+t1331140953
+s70876
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/parser.o
+t1331142354
+s104096
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/program.o
+t1331140953
+s105144
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/statement.o
+t1331140952
+s133516
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/evalstate.cpp
+c000000004F53A53C0000000000000351
+t1330881852
+s849
+i<string>
+i"evalstate.h"
+i"map.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/evalstate.h
+c000000004F53216A0000000000000768
+t1330848106
+s1896
+i<string>
+i"map.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/exp.cpp
+c000000004F45203A0000000000000DAB
+t1329930298
+s3499
+i<string>
+i"error.h"
+i"evalstate.h"
+i"exp.h"
+i"strlib.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/exp.h
+c000000004F45203A0000000000001889
+t1329930298
+s6281
+i"evalstate.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp
+c000000004F53A53C0000000000000B83
+t1330881852
+s2947
+i<iostream>
+i<string>
+i"error.h"
+i"exp.h"
+i"parser.h"
+i"strlib.h"
+i"tokenscanner.h"
+i"statement.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.h
+c000000004F53A3F00000000000000629
+t1330881520
+s1577
+i<string>
+i"exp.h"
+i"tokenscanner.h"
+i"statement.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp
+c000000004F5796F90000000000000D6C
+t1331140345
+s3436
+i<string>
+i"program.h"
+i"statement.h"
+i"hashmap.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.h
+c000000004F526DCE0000000000000F83
+t1330802126
+s3971
+i<string>
+i"hashmap.h"
+i"statement.h"
+i"programpriv.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/programpriv.h
+c000000004F5796F90000000000000145
+t1331140345
+s325
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/statement.cpp
+c000000004F5796F90000000000000B3E
+t1331140345
+s2878
+i<string>
+i"statement.h"
+i"exp.h"
+i"parser.h"
+i"simpio.h"
+i"strlib.h"
+
+N/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/statement.h
+c000000004F5796F90000000000000DF3
+t1331140345
+s3571
+i"evalstate.h"
+i"exp.h"
+i"tokenscanner.h"
+
+NInfo.plist
+c0000000049CA892E0000000000000326
+t1238010158
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies352835151#352835151#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/Basic.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s352835151.826991
+e352835154.257395
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/Basic.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/Basic.cpp352835151#352835154#0(0"0(0#0#88"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/Basic.cpp7451613997313254400#930"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/Basic.cpp" -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s352833145.890735
+e352833148.329450
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp352833145#352833148#0(0"0(0#0#67"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp3342631292712923136#907"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/evalstate.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/evalstate.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s352833752.595888
+e352833753.534614
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/evalstate.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/evalstate.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/evalstate.cpp352833752#352833753#0(0"0(0#0#92"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/evalstate.cpp8611271456#938"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/evalstate.cpp" -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/evalstate.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/evalstate.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/evalstate.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s352574652.390323
+e352574653.870916
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/evalstate.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/evalstate.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/evalstate.cpp352574652#352574653#0(0"0(0#0#71"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/evalstate.cpp8602604096#915"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/evalstate.cpp -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/evalstate.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/evalstate.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/evalstate.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/exp.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/exp.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s352833753.234317
+e352833753.994892
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/exp.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/exp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/exp.cpp352833753#352833753#0(0"0(0#0#86"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/exp.cpp8609365504#926"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/exp.cpp" -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/exp.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/exp.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/exp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s352574328.433205
+e352574329.468407
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/exp.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/exp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/exp.cpp352574328#352574329#0(0"0(0#0#65"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/exp.cpp8605142752#903"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/exp.cpp -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/exp.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/exp.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/exp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/parser.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s352835151.901145
+e352835154.300349
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/parser.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp: In function 'Statement* parseStatement(TokenScanner&)':
+o/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp:99: warning: control reaches end of non-void function
+lSLF07#2@97"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp352835151#352835154#0(291"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp: In function 'Statement* parseStatement(TokenScanner&)':/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp:99: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function352835154#147#144#0(6@89"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp352834397#99#0#99#0#40"control reaches end of non-void function0(0#0#89"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp8601108448#932"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/parser.cpp" -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/parser.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/parser.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s352833145.987379
+e352833148.355209
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/parser.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp: In function 'Statement* parseStatement(TokenScanner&)':
+o/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp:99: warning: control reaches end of non-void function
+lSLF07#2@76"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp352833145#352833148#0(249"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp: In function 'Statement* parseStatement(TokenScanner&)':/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp:99: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function352833148#126#123#0(6@68"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp352574652#99#0#99#0#40"control reaches end of non-void function0(0#0#68"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp8609215584#909"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/parser.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/parser.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/parser.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/program.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s352833752.412539
+e352833753.234196
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/program.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp: In member function 'int Program::getNextLineNumber(int)':
+o/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp:125: warning: control reaches end of non-void function
+lSLF07#2@98"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp352833752#352833753#0(296"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp: In member function 'int Program::getNextLineNumber(int)':/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp:125: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function352833753#150#146#0(6@90"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp352598012#125#0#125#0#40"control reaches end of non-void function0(0#0#90"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp8607882944#934"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/program.cpp" -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/program.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/program.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s352833148.329793
+e352833149.321493
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/program.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp: In member function 'int Program::getNextLineNumber(int)':
+o/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:125: warning: control reaches end of non-void function
+lSLF07#2@77"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp352833148#352833149#0(254"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp: In member function 'int Program::getNextLineNumber(int)':/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:125: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function352833149#129#125#0(6@69"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp352833145#125#0#125#0#40"control reaches end of non-void function0(0#0#69"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp8608800672#911"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/program.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/program.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/statement.o "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/statement.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s352833742.503869
+e352833752.595770
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/statement.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/statement.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/statement.cpp352833742#352833752#0(0"0(0#0#92"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/statement.cpp8608920032#938"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/../code/Assignment 5/statement.cpp" -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/statement.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/statement.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/statement.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s352833148.355316
+e352833149.283246
+r1
+xCompileC
+xbuild/Basic.build/Debug/Basic.build/Objects-normal/i386/statement.o
+x/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/statement.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/statement.cpp352833148#352833149#0(0"0(0#0#71"/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/statement.cpp8600899968#915"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Basic.hmap -Wall -Wno-sign-compare -F. -IStanfordCPPLib -Iinclude -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources/i386 -I/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/DerivedSources -fstack-check -c /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/statement.cpp -o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/statement.o0#
+
+CCompileC build/Basic.build/Debug/Basic.build/Objects-normal/i386/statement.o /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/statement.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CLd ./Basic.app/Contents/MacOS/Basic normal i386
+s352835154.300438
+e352835164.921315
+r1
+xLd
+x./Basic.app/Contents/MacOS/Basic
+xnormal
+xi386
+lSLF07#2@37"Link ./Basic.app/Contents/MacOS/Basic352835154#352835164#0(0"0(0#0#0"27303356211855408#459"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    /Developer/usr/bin/g++-4.2 -arch i386 -L. -LStanfordCPPLib -L/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib -F. -filelist /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lStanfordCPPLib -o ./Basic.app/Contents/MacOS/Basic0#
+
+CProcessInfoPlistFile ./Basic.app/Contents/Info.plist Info.plist
+r0
+
+CTouch ./Basic.app
+s352835164.921448
+e352835165.077288
+r1
+xTouch
+x./Basic.app
+lSLF07#2@17"Touch ./Basic.app352835164#352835165#0(0"0(0#0#0"8599448768#99"    cd /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode    /usr/bin/touch -c ./Basic.app0#
+

@@ -1,0 +1,21 @@
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp: In destructor 'Program::~Program()':
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:22: error: 'strMap' was not declared in this scope
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp: In member function 'void Program::clear()':
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:29: error: 'strMap' was not declared in this scope
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:34: error: 'strMap' was not declared in this scope
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp: In member function 'void Program::addSourceLine(int, std::string)':
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:39: error: 'strMap' was not declared in this scope
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:40: error: expected type-specifier before 'StrIndx'
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:40: error: expected `)' before 'StrIndx'
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:59: error: 'strMap' was not declared in this scope
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp: In member function 'void Program::removeSourceLine(int)':
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:63: error: 'strMap' was not declared in this scope
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp: In member function 'std::string Program::getSourceLine(int)':
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:78: error: 'strMap' was not declared in this scope
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp: In member function 'void Program::setParsedStatement(int, Statement*)':
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:85: error: 'strMap' was not declared in this scope
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:87: error: cannot convert 'Statement*' to 'Program::StrStmt*' in assignment
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp: In member function 'Statement* Program::getParsedStatement(int)':
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:95: error: cannot convert 'Program::StrStmt*' to 'Statement*' in return
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp: In member function 'int Program::getNextLineNumber(int)':
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/program.cpp:108: error: 'strMap' was not declared in this scope

@@ -1,0 +1,7 @@
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp: In function 'void processLine(std::string, Program&, EvalState&)':
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp:77: error: expected primary-expression before '/' token
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp:79: error: expected primary-expression before '}' token
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp:79: error: expected `;' before '}' token
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/programpriv.h:15: error: 'HashMap<int, Statement*> Program::stmtMap' is private
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp:99: error: within this context
+/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.cpp:99: error: 'class Statement' has no member named 'stmt'

@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 50825F661501F74400F57D27 /* Basic */;
+		activeTarget = 8D1107260486CEB800E47090 /* Basic */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Basic */,
+		);
+		breakpoints = (
+			506A4E481503F4DD0054EFB2 /* Basic.cpp:4 */,
+		);
+		codeSenseManager = 50825F771501F74B00F57D27 /* Code sense */;
+		executables = (
+			50825F661501F74400F57D27 /* Basic */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					674,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					786,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 352835094;
+			PBXWorkspaceStateSaveDate = 352835094;
+		};
+		perUserProjectItems = {
+			5000D3FE1507D84E008F20D3 /* PBXTextBookmark */ = 5000D3FE1507D84E008F20D3 /* PBXTextBookmark */;
+			5000D3FF1507D84E008F20D3 /* PBXTextBookmark */ = 5000D3FF1507D84E008F20D3 /* PBXTextBookmark */;
+			5000D4001507D84E008F20D3 /* PBXTextBookmark */ = 5000D4001507D84E008F20D3 /* PBXTextBookmark */;
+			5000D4011507D84E008F20D3 /* PBXBookmark */ = 5000D4011507D84E008F20D3 /* PBXBookmark */;
+			5000D4021507D84E008F20D3 /* PBXTextBookmark */ = 5000D4021507D84E008F20D3 /* PBXTextBookmark */;
+			508260111502B91C00F57D27 /* PBXTextBookmark */ = 508260111502B91C00F57D27 /* PBXTextBookmark */;
+			508260131502B91C00F57D27 /* PBXTextBookmark */ = 508260131502B91C00F57D27 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 50825F761501F74B00F57D27 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	5000D3FE1507D84E008F20D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5040E2481507D4E800AA88F0 /* tokenscanner.h */;
+		name = "tokenscanner.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 0;
+	};
+	5000D3FF1507D84E008F20D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5040E21F1507D0CD00AA88F0 /* Basic.cpp */;
+		name = "Basic.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 0;
+	};
+	5000D4001507D84E008F20D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5040E2271507D0CD00AA88F0 /* parser.h */;
+		name = "parser.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 603;
+		vrLoc = 974;
+	};
+	5000D4011507D84E008F20D3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5040E2231507D0CD00AA88F0 /* parser.cpp */;
+	};
+	5000D4021507D84E008F20D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5040E2231507D0CD00AA88F0 /* parser.cpp */;
+		name = "parser.cpp: 100";
+		rLen = 0;
+		rLoc = 2980;
+		rType = 0;
+		vrLen = 851;
+		vrLoc = 2129;
+	};
+	5040E21F1507D0CD00AA88F0 /* Basic.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 1391}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 506}";
+		};
+	};
+	5040E2231507D0CD00AA88F0 /* parser.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 1196}}";
+			sepNavSelRange = "{2980, 0}";
+			sepNavVisRange = "{2129, 851}";
+		};
+	};
+	5040E2271507D0CD00AA88F0 /* parser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{974, 603}";
+		};
+	};
+	5040E2481507D4E800AA88F0 /* tokenscanner.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = tokenscanner.h;
+		path = "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/tokenscanner.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 3653}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 551}";
+		};
+	};
+	506A4E481503F4DD0054EFB2 /* Basic.cpp:4 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+			506A4E4C1503F5090054EFB2 /* XCBreakpointCommandAction */,
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5040E21F1507D0CD00AA88F0 /* Basic.cpp */;
+		functionName = "processLine(string line, Program & program, EvalState & state)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 4;
+		location = Basic;
+		modificationTime = 352833669.128435;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	506A4E4C1503F5090054EFB2 /* XCBreakpointCommandAction */ = {
+		isa = XCBreakpointCommandAction;
+		command = "";
+		fallbackIsa = XCBreakpointAction;
+		logCommand = 0;
+		useDebuggerSideImplementation = 1;
+	};
+	50825F661501F74400F57D27 /* Basic */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = stmt;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Basic;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	50825F761501F74B00F57D27 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	50825F771501F74B00F57D27 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	508260111502B91C00F57D27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508260121502B91C00F57D27 /* vector.h */;
+		name = "vector.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 1647;
+	};
+	508260121502B91C00F57D27 /* vector.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = vector.h;
+		path = "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/vector.h";
+		sourceTree = "<absolute>";
+	};
+	508260131502B91C00F57D27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508260141502B91C00F57D27 /* hashmap.h */;
+		name = "hashmap.h: 21";
+		rLen = 0;
+		rLoc = 465;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 266;
+	};
+	508260141502B91C00F57D27 /* hashmap.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = hashmap.h;
+		path = "/Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/StanfordCPPLib/hashmap.h";
+		sourceTree = "<absolute>";
+	};
+	8D1107260486CEB800E47090 /* Basic */ = {
+		activeExec = 0;
+		executables = (
+			50825F661501F74400F57D27 /* Basic */,
+		);
+	};
+}

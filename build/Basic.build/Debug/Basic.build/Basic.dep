@@ -1,0 +1,10 @@
+4a7e8f30fdb35df8cf30e104dbd9f5c7 bc9f2c38c68886a5481e78106301f722 ffffffffffffffffffffffffffffffff 102 /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.app
+0d9cb3e9c3ddaa2b5acd1b7a9b5adbf2 47e23cd93e6ef7d395fdfa7e40832e35 ffffffffffffffffffffffffffffffff 422748 /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.app/Contents/MacOS/Basic
+000000004ed53f7100000000000000df c0d5c5be7b2e7a30fcfe03e1ae8cde9c ffffffffffffffffffffffffffffffff 104096 /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/parser.o
+00000000000245350000000000001cf6 b89118af2102cffce01a03b472d8630e ffffffffffffffffffffffffffffffff 106576 /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/Basic.o
+000000004ed1075c0000000000001877 d87bc7602b56f880abd571601cab677d ffffffffffffffffffffffffffffffff 70876 /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/exp.o
+000000000007b2600000000000000439 bdf32b08aa237ff3aff06d6f9a93bc0c ffffffffffffffffffffffffffffffff 62156 /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/evalstate.o
+000000004f527aef000000000000052d f37eeed91ca897d95dc6ffc9fac7f96f ffffffffffffffffffffffffffffffff 105144 /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/program.o
+00000000015421550000000000002120 e32e6c494e33af941fcaf8e93baa6cec ffffffffffffffffffffffffffffffff 133516 /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/build/Basic.build/Debug/Basic.build/Objects-normal/i386/statement.o
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 8 /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.app/Contents/PkgInfo
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 1090 /Users/qiuxin/Dropbox/2012Winter/cs106b/Assignment5-xcode/Basic.app/Contents/Info.plist
